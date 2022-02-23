@@ -232,6 +232,7 @@ int main()
 
 /*
 
+CPU: Intel i7-9750H
 Average output for test several times:
 
 Debug Build:
