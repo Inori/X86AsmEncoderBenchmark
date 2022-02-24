@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0C8018DD-74AF-330D-9796-D2EB1DCB53F7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\ebca2e1f8a7f40d34af6473367db3b7d\generate.stamp.rule">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\CMake\bin\cmake.exe -SH:/Code/X86AsmEncoderBenchmark/asmjit -BH:/Code/X86AsmEncoderBenchmark/asmjit/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/Code/X86AsmEncoderBenchmark/asmjit/build/asmjit.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;E:\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;E:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;E:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.18\Modules\GNUInstallDirs.cmake;E:\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;H:\Code\X86AsmEncoderBenchmark\asmjit\CMakeLists.txt;H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\3.18.3\CMakeCXXCompiler.cmake;H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\3.18.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\CMake\bin\cmake.exe -SH:/Code/X86AsmEncoderBenchmark/asmjit -BH:/Code/X86AsmEncoderBenchmark/asmjit/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/Code/X86AsmEncoderBenchmark/asmjit/build/asmjit.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;E:\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;E:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;E:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.18\Modules\GNUInstallDirs.cmake;E:\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;H:\Code\X86AsmEncoderBenchmark\asmjit\CMakeLists.txt;H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\3.18.3\CMakeCXXCompiler.cmake;H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\3.18.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\CMake\bin\cmake.exe -SH:/Code/X86AsmEncoderBenchmark/asmjit -BH:/Code/X86AsmEncoderBenchmark/asmjit/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/Code/X86AsmEncoderBenchmark/asmjit/build/asmjit.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;E:\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;E:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;E:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.18\Modules\GNUInstallDirs.cmake;E:\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;H:\Code\X86AsmEncoderBenchmark\asmjit\CMakeLists.txt;H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\3.18.3\CMakeCXXCompiler.cmake;H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\3.18.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\CMake\bin\cmake.exe -SH:/Code/X86AsmEncoderBenchmark/asmjit -BH:/Code/X86AsmEncoderBenchmark/asmjit/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file H:/Code/X86AsmEncoderBenchmark/asmjit/build/asmjit.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CMake\share\cmake-3.18\Modules\CMakeCXXCompiler.cmake.in;E:\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp;E:\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeCompilerIdDetection.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCXXCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompileFeatures.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerABI.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineCompilerId.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineRCCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeDetermineSystem.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeFindBinUtils.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeParseImplicitIncludeInfo.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeParseImplicitLinkInfo.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeRCCompiler.cmake.in;E:\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystem.cmake.in;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeTestCXXCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeTestCompilerCommon.cmake;E:\CMake\share\cmake-3.18\Modules\CMakeTestRCCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCXXCompilerFlag.cmake;E:\CMake\share\cmake-3.18\Modules\CheckCXXSourceCompiles.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\ADSP-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\ARMCC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\ARMClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\AppleClang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Borland-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Cray-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\GHS-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\IAR-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Intel-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\MSVC-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\PGI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\PathScale-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\SCO-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\TI-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\Watcom-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;E:\CMake\share\cmake-3.18\Modules\CompilerId\VS-10.vcxproj.in;E:\CMake\share\cmake-3.18\Modules\GNUInstallDirs.cmake;E:\CMake\share\cmake-3.18\Modules\Internal\FeatureTesting.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-Determine-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;H:\Code\X86AsmEncoderBenchmark\asmjit\CMakeLists.txt;H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\3.18.3\CMakeCXXCompiler.cmake;H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\3.18.3\CMakeRCCompiler.cmake;H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\3.18.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\Code\X86AsmEncoderBenchmark\asmjit\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
